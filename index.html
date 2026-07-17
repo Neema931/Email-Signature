@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Signature</title>
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+
+        .signature {
+            width: min(600px, 100%);
+            max-width: 100%;
+            padding: 20px;
+            background: #ffffff;
+            border: 1px solid #dddddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
+        }
+
+        th {
+            text-align: left;
+            font-size: 14px;
+        }
+
+        td {
+            padding: 5px;
+            vertical-align: top;
+            word-break: break-word;
+            overflow-wrap: anywhere;
+        }
+
+        .logo-cell {
+            text-align: center;
+            vertical-align: middle;
+            width: 100px;
+        }
+
+        .top-row-divider {
+            border-bottom: 3px solid #000000;
+        }
+
+        .content-column {
+            border-left: 3px solid #000000;
+            padding-left: 15px;
+        }
+
+        .logo {
+            width: 200px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        h2 {
+            margin: 5px 0;
+            font-size: 20px;
+            line-height: 1.2;
+            color: red;
+        }
+
+        p {
+            margin: 8px 0;
+            font-size: 13px;
+            line-height: 1.4;
+            overflow-wrap: anywhere;
+        }
+
+        .contact-icon,
+        .facebook-icon,
+        .linkedin-icon {
+            width: 18px;
+            height: 18px;
+            margin-right: 8px;
+            flex-shrink: 0;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .signature-image {
+            width: 555px;
+            max-width: 555px;
+            height: 275px;
+            margin-top: 10px;
+            display: block;
+        }
+
+        .disclaimer {
+            margin-top: 12px;
+            font-size: 11px;
+            color: #1174e6;
+            font-style: italic;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="signature">
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">Kind Regards,</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr class="top-row-divider">
+                <td class="logo-cell">
+                    <img src="assets/Capture.png" alt="Email Signature Logo" class="logo">
+                </td>
+                <td class="content-column">
+                    <h2>VERONICA BITTA</h2>
+
+                    <p>
+                        Director | Tumaini Sickle Cell Organization
+                    </p>
+
+                    <p>
+                        <img src="assets/call.png" alt="Phone" class="contact-icon">
+                        +(254)715873713
+                    </p>
+
+
+                    <p>
+                        <img src="assets/env.png" alt="Gmail" class="contact-icon">
+                        bittavero@gmail.com
+                    </p>
+
+
+                    <p>
+                        <img src="assets/locationss.png" alt="Location" class="contact-icon">
+                        Opposite Jaramogi Oginga Odinga Teaching and Referral Hospital 
+                        (JOOTRH) mortuary, inside Kenya Red Cross Compound, Kisumu, Kenya.
+                    </p>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+
+                    <p>
+                        <img src="assets/env.png" alt="Gmail" class="contact-icon">
+                        info@tumainisicklecell.org
+                    </p>
+
+
+                    <p>
+                        <img src="assets/facebook.png" alt="Facebook" class="facebook-icon">
+                        Tumaini Sickle Cell Organization
+                    </p>
+                </td>
+                <td>
+
+                    <p>
+                        <img src="assets/linkedin.png" alt="LinkedIn" class="linkedin-icon">
+                        Tumaini Sickle Cell Organization
+                    </p>
+
+
+                    <p>
+                        <img src="assets/web.png" alt="Website" class="contact-icon">
+                        tumainisicklecell.org
+                    </p>
+
+                </td>
+            </tr>
+
+
+            <tr>
+                <td colspan="2">
+                    <img src="assets/VeronicaBitta.png" 
+                         alt="Signature Image" 
+                         class="signature-image">
+                    <p class="disclaimer">
+                        Disclaimer!!<br>
+                        "This email and any attachments are confidential and intended solely for the named recipient. If you received this message in error, please delete it and notify the sender."
+                    </p>
+                </td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</div>
+
+</body>
+</html>

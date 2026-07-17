@@ -1,0 +1,94 @@
+ body {
+            margin: 0;
+            padding: 20px;
+            background: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+
+        .signature {
+            width: min(450px, 100%);
+            max-width: 100%;
+            padding: 20px;
+            background: #ffffff;
+            border: 1px solid #dddddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
+        }
+
+        th {
+            text-align: left;
+            font-size: 14px;
+        }
+
+        td {
+            padding: 5px;
+            vertical-align: top;
+            word-break: break-word;
+            overflow-wrap: anywhere;
+        }
+
+        .logo-cell {
+            text-align: center;
+            vertical-align: middle;
+            width: 140px;
+        }
+
+        .content-column {
+            border-left: 2px solid #cccccc;
+            padding-left: 15px;
+        }
+
+        .logo {
+            width: 130px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        h2 {
+            margin: 5px 0;
+            font-size: 20px;
+            line-height: 1.2;
+            color: red;
+        }
+
+        p {
+            margin: 8px 0;
+            font-size: 13px;
+            line-height: 1.4;
+            overflow-wrap: anywhere;
+        }
+
+        i {
+            width: 18px;
+            margin-right: 8px;
+            flex-shrink: 0;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .contact-icon {
+            color: #4285F4;
+        }
+
+        .facebook-icon {
+            color: #1877F2;
+        }
+
+        .linkedin-icon {
+            color: #0A66C2;
+        }
+
+        .signature-image {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            margin-top: 10px;
+            display: block;
+        }
